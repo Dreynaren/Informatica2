@@ -17,3 +17,19 @@ int main()
 
 	return 0;
 }
+
+int qwe(int a)
+{
+	int t = a;
+    int b = 0;
+    
+    while (t != 0)
+    {
+        b = b * 10 + t % 10;
+        t /= 10;
+    }
+    
+	cout<<b<<endl;
+	
+	return 0;
+}
